@@ -45,7 +45,7 @@ function format(){
   doc.setCursor(pos)
 
   doc.saveAndClose()
-  DocumentApp.openById(id) //May work
+  DocumentApp.openById(id)
 }
 
 function configName(){
